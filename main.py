@@ -3,6 +3,7 @@ from tkinter import messagebox
 import random
 # --------------------------Generator-------------------------
 def passbutton():
+    pspace.delete(0, len(pspace.get()))
     non_capitals = "abcdefghijklmnopqrstuvwxyz"
     capitals = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     numbers = "1234567890"
